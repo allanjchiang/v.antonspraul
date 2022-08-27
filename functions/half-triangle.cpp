@@ -11,4 +11,3 @@ int main() {
 		cout << "\n";
 	}
 }
-
