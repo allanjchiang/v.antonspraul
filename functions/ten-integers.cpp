@@ -2,6 +2,7 @@
 
 using std::cin;
 using std::cout;
+using std::endl;
 
 int integer;
 
@@ -12,7 +13,7 @@ int main()
 	cout << "Enter Number of elements in array\n";
 	cin >> count;
 
-	cout << "Enter" << count << " numbers \n";
+	cout << "Enter " << count << " numbers \n";
 
 	// Read elements
 	for (i = 0; i < count; i++) {
