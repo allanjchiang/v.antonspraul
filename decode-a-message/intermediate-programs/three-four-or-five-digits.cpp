@@ -6,11 +6,11 @@ int main()
 {
 	cout << "Enter a number with 3, 4 or 5 digits: ";
 	char digitChar = cin.get();
-	int number = (digit - '0') * 100;
+	int number = (digitChar - '0') * 100;
 	digitChar = cin.get();
-	number += (digit - '0') * 10;
+	number += (digitChar - '0') * 10;
 	digitChar = cin.get();
-	number += (digit - '0');
+	number += (digitChar - '0');
 	digitChar = cin.get();
 	if (digitChar == 10) {
 		cout << "Your 3 digit number is: " << number << "\n";
