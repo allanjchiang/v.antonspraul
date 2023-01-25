@@ -30,11 +30,12 @@ int main()
 			outputCharacter = number + 'a' - 1;
 			if (number == 0) {
 				mode = PUNCTUATION;
+				continue;
 			}
 			break;
 		case PUNCTUATION: 
 			number = number % 9;
-			cout << ".Modulo 9: " << number << ".";
+
 			if (number == 0) {
 				cout << "Switch to UPPERCASE";
 				mode = UPPERCASE;
