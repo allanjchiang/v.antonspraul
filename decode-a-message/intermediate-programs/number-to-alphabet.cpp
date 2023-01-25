@@ -8,4 +8,5 @@ int main()
 	int main;
 	cin >> number;
 	char outputCharacter;
+	outputCharacter = number + 'A';
 }
