@@ -19,7 +19,7 @@ int main()
 		switch (mode) {
 		case UPPERCASE:
 			number = number % 27;
-			cout << ".Modulo 27: " << number << ".";
+			
 			if (number == 0) {
 				cout << "Switch to LOWERCASE";
 				mode = LOWERCASE;
