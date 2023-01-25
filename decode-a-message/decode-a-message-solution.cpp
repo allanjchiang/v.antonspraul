@@ -47,8 +47,8 @@ int main()
 			}
 
 			if (number == 0) {
-				
 				mode = UPPERCASE;
+				continue;
 			}
 			break;
 		}
