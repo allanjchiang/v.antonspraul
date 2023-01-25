@@ -22,11 +22,12 @@ int main()
 			outputCharacter = number + 'A' - 1;
 			if (number == 0) {
 				mode = LOWERCASE;
+				continue;
 			}
 			break;
 		case LOWERCASE: 
 			number = number % 27;
-			cout << ".Modulo 27: " << number << ".";
+
 			if (number == 0) {
 				cout << "Switch to PUNCTUATION";
 				mode = PUNCTUATION;
