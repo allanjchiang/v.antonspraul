@@ -11,6 +11,7 @@ int main()
 	do {
 		digitChar = cin.get();
 		int number = (digitChar - '0');
+		digitChar = cin.get();
 		cin >> number;
 		cout << "Number read: " << number;
 		switch (mode) {
