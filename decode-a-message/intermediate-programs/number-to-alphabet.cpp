@@ -8,6 +8,6 @@ int main()
 	int number;
 	cin >> number;
 	char outputCharacter;
-	outputCharacter = number + 'A';
+	outputCharacter = number + 'A' - 1;
 	cout << "Equivalent symbol: " << outputCharacter << "\n";
 }
