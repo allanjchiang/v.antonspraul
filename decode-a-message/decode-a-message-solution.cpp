@@ -4,9 +4,10 @@ using std::cout;
 
 int main() 
 {
+	char outputCharacter;
 	enum modeType {UPPERCASE, LOWERCASE, PUNCTUATION};
-	int number;
 	modeType mode = UPPERCASE;
+	char digitChar;
 	cout << "Enter some numbers ending with -1: ";
 	do {
 		cin >> number;
