@@ -8,7 +8,6 @@ int main()
 	enum modeType {UPPERCASE, LOWERCASE, PUNCTUATION};
 	modeType mode = UPPERCASE;
 	char digitChar;
-	cout << "Enter some numbers ending with -1: ";
 	do {
 		cin >> number;
 		cout << "Number read: " << number;
