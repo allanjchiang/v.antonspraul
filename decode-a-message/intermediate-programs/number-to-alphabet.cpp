@@ -5,7 +5,7 @@ using std::cout;
 int main()
 {
 	cout << "Enter a number 1-26: ";
-	int main;
+	int number;
 	cin >> number;
 	char outputCharacter;
 	outputCharacter = number + 'A';
