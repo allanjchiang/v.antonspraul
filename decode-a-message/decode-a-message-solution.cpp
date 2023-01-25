@@ -54,4 +54,5 @@ int main()
 		}
 		cout << outputCharacter;
 	} while (digitChar != 10);
+	cout << "\n";
 }
