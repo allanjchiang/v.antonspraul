@@ -52,6 +52,6 @@ int main()
 			}
 			break;
 		}
-		cout << "\n";
+		cout << outputCharacter;
 	} while (number != -1);
 }
