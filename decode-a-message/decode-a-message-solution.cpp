@@ -21,7 +21,6 @@ int main()
 			number = number % 27;
 			outputCharacter = number + 'A' - 1;
 			if (number == 0) {
-				cout << "Switch to LOWERCASE";
 				mode = LOWERCASE;
 			}
 			break;
