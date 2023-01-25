@@ -30,7 +30,7 @@ int main()
 			break;
 		case PUNCTUATION: 
 			number = number % 9;
-			cout << ".Modulo 9: " << number ".";
+			cout << ".Modulo 9: " << number << ".";
 			if (number == 0) {
 				cout << "Switch to UPPERCASE";
 				mode = UPPERCASE;
