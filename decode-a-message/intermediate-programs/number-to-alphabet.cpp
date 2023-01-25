@@ -9,4 +9,5 @@ int main()
 	cin >> number;
 	char outputCharacter;
 	outputCharacter = number + 'A';
+	cout << "Equivalent symbol: " << outputCharacter << "\n";
 }
