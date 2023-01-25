@@ -9,6 +9,7 @@ int main()
 	modeType mode = UPPERCASE;
 	char digitChar;
 	do {
+		digitChar = cin.get();
 		cin >> number;
 		cout << "Number read: " << number;
 		switch (mode) {
