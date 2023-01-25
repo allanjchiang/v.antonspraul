@@ -47,7 +47,7 @@ int main()
 			}
 
 			if (number == 0) {
-				cout << "Switch to UPPERCASE";
+				
 				mode = UPPERCASE;
 			}
 			break;
