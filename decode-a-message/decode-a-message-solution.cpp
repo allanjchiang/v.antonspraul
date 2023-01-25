@@ -12,7 +12,6 @@ int main()
 		digitChar = cin.get();
 		int number = (digitChar - '0');
 		digitChar = cin.get();
-		cout << "Number read: " << number;
 		switch (mode) {
 		case UPPERCASE:
 			number = number % 27;
