@@ -12,6 +12,10 @@ int main()
 		digitChar = cin.get();
 		int number = (digitChar - '0');
 		digitChar = cin.get();
+		while ((digitChar != 10) && (digitChar != ',')) {
+			number = number * 10 + (digitChar - '0');
+			digitChar = cin.get();
+		}
 		switch (mode) {
 		case UPPERCASE:
 			number = number % 27;
