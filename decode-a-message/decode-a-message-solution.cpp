@@ -27,7 +27,7 @@ int main()
 			break;
 		case LOWERCASE: 
 			number = number % 27;
-
+			outputCharacter = number + 'a' - 1;
 			if (number == 0) {
 				cout << "Switch to PUNCTUATION";
 				mode = PUNCTUATION;
