@@ -10,6 +10,7 @@ int main()
 	char digitChar;
 	do {
 		digitChar = cin.get();
+		int number = (digitChar - '0');
 		cin >> number;
 		cout << "Number read: " << number;
 		switch (mode) {
