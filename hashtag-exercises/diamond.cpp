@@ -12,5 +12,6 @@ int main()
 		for (int hashNum = 1; hashNum < row + 1; hashNum++) {
 			cout << "##";
 		}
+		cout << "\n";
 	}
 }
