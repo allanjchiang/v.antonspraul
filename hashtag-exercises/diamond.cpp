@@ -14,4 +14,7 @@ int main()
 		}
 		cout << "\n";
 	}
+	for(int row = 1; row < 5; row++) {
+		
+	}
 }
