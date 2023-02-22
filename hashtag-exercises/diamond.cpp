@@ -9,5 +9,8 @@ int main()
 		for (int space = 1; space < 4 - row; space++){
 			cout << " ";
 		}
+		for (int hashNum = 1; hashNum < row + 1; hashNum++) {
+			cout << "##";
+		}
 	}
 }
