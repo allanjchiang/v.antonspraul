@@ -15,6 +15,6 @@ int main()
 		cout << "\n";
 	}
 	for(int row = 1; row < 5; row++) {
-		
+		for (int space = 1; space < row - 1; space++)
 	}
 }
