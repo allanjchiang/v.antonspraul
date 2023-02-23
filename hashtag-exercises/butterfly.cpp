@@ -31,6 +31,9 @@ int main()
 		for (int spacesInBetween = 0; spacesInBetween < row - 1; spacesInBetween++) {
 			cout << "    ";
 		}
+		for (int hashNumAtEnd = 1; hashNumAtEnd < 6 - row; hashNumAtEnd++){
+			cout << "#";
+		}
 		cout << "\n";
 	}
 }
