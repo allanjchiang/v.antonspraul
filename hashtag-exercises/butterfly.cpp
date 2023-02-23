@@ -20,4 +20,10 @@ int main()
 		}
 		cout << "\n";
 	}
+
+	for (int row = 1; row < 5; row++) {
+		for (int spacesAtStart = 1; spacesAtStart < 4 - row; spacesAtStart++) {
+			cout << " ";
+		}
+	}
 }
