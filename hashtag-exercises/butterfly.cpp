@@ -12,7 +12,7 @@ int main()
 		for(int hashNum = 1; hashNum < row + 1; hashNum++){
 			cout << "#";
 		}
-		for(int spacesInBetween = 1; spacesInBetween < 4 - row; spacesInBetween++){
+		for(int spacesInBetween = 1; spacesInBetween < 5 - row; spacesInBetween++){
 			cout << "    ";
 		}
 		for(int hashNumAtEnd = 1; hashNumAtEnd < row + 1; hashNumAtEnd++){
