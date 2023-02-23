@@ -28,5 +28,6 @@ int main()
 		for (int hashNum = 1; hashNum < 6 - row; hashNum++) {
 			cout << "#";
 		}
+		cout << "\n";
 	}
 }
