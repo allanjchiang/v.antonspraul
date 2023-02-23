@@ -13,7 +13,10 @@ int main()
 			cout << "#";
 		}
 		for(int spacesInBetween = 1; spacesInBetween < 4 - row; spacesInBetween++){
-			cout << " ";
+			cout << "    ";
+		}
+		for(int hashNumAtEnd = 1; hashNumAtEnd < row + 1; hashNumAtEnd++){
+			cout << "#"
 		}
 		cout << "\n";
 	}
