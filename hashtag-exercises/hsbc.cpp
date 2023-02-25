@@ -9,7 +9,7 @@ int main()
 		for (int hashNum = 0; hashNum < 3 - abs(3 - row); hashNum++) {
 			cout << "#";
 		}
-		for (int spaceNum = 1; spaceNum < abs(3 - row); spaceNum++) {
+		for (int spaceNum = 0; spaceNum < abs(3 - row); spaceNum++) {
 			cout << "  ";
 		}
 		for (int hashNumAtEnd = 0; hashNumAtEnd < 3 - abs(3 - row); hashNumAtEnd++){
