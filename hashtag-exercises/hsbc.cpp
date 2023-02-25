@@ -12,6 +12,9 @@ int main()
 		for (int spaceNum = 1; spaceNum < abs(3 - row); spaceNum++) {
 			cout << "  ";
 		}
+		for (int hashNumAtEnd = 0; hashNumAtEnd < 3 - abs(3 - row); hashNumAtEnd++){
+			cout << "#";
+		}
 		cout << "\n";
 	}
 }
