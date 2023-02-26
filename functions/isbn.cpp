@@ -20,9 +20,9 @@ void sumDigits(long int idNumber){
 	int tenthDigit = idNumber / 100 % 10;
 	int eleventhDigit = idNumber / 10 % 10;
 	int twelfthDigit = idNumber % 10;
-	int sumOfIdNumber = firstDigit + secondDigit + thirdDigit + fourthDigit + fifthDigit + sixthDigit + seventhDigit + eighthDigit + ninthDigit + tenthDigit + eleventhDigit + twelfthDigit;
+	int sumOfIdNumber = firstDigit + secondDigitTripled + thirdDigit + fourthDigit + fifthDigit + sixthDigit + seventhDigit + eighthDigit + ninthDigit + tenthDigit + eleventhDigit + twelfthDigit;
 
-	cout << firstDigit << " + " << secondDigitTripled << " + " << thirdDigit << " + " << fourthDigit << " + " << fifthDigit << " + " << sixthDigit << " + " << seventhDigit << " + " << eighthDigit << " + " << ninthDigit << " + " << tenthDigit << " + " << eleventhDigit << " + " << twelfthDigit << " = " << sumOfIdNumber;
+	cout << firstDigit << "(1) + " << secondDigit << "(3) + " << thirdDigit << " + " << fourthDigit << " + " << fifthDigit << " + " << sixthDigit << " + " << seventhDigit << " + " << eighthDigit << " + " << ninthDigit << " + " << tenthDigit << " + " << eleventhDigit << " + " << twelfthDigit << " = " << sumOfIdNumber;
 }
 
 int main()
