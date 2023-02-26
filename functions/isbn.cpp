@@ -4,12 +4,13 @@ using std::cin;
 using std::cout;
 using namespace std;
 
-//idNumber = 16
+//idNumber = 123456789012
 
 void sumDigits(int idNumber){
-	int sumOfIdNumber = idNumber % 10 + idNumber / 10 % 10;
+	int firstDigit = idNumber / 100000000000 % 10;
+	int sumOfIdNumber = firstDigit;
 
-	cout << idNumber % 10 << " + " << idNumber / 10 % 10 << " = " << sumOfIdNumber;
+	cout << firstDigit << " + " << "placeholder" << " = " << sumOfIdNumber;
 }
 
 int main()
