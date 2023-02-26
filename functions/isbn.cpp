@@ -9,6 +9,7 @@ using namespace std;
 void sumDigits(long int idNumber){
 	int firstDigit = idNumber / 100000000000 % 10;
 	int secondDigit = idNumber / 10000000000 % 10;
+	int secondDigitTripled = idNumber / 10000000000 % 10 * 3;
 	int thirdDigit = idNumber / 1000000000 % 10;
 	int fourthDigit = idNumber / 100000000 % 10;
 	int fifthDigit = idNumber / 10000000 % 10;
@@ -21,7 +22,7 @@ void sumDigits(long int idNumber){
 	int twelfthDigit = idNumber % 10;
 	int sumOfIdNumber = firstDigit + secondDigit + thirdDigit + fourthDigit + fifthDigit + sixthDigit + seventhDigit + eighthDigit + ninthDigit + tenthDigit + eleventhDigit + twelfthDigit;
 
-	cout << firstDigit << " + " << secondDigit << " + " << thirdDigit << " + " << fourthDigit << " + " << fifthDigit << " + " << sixthDigit << " + " << seventhDigit << " + " << eighthDigit << " + " << ninthDigit << " + " << tenthDigit << " + " << eleventhDigit << " + " << twelfthDigit << " = " << sumOfIdNumber;
+	cout << firstDigit << " + " << secondDigitTripled << " + " << thirdDigit << " + " << fourthDigit << " + " << fifthDigit << " + " << sixthDigit << " + " << seventhDigit << " + " << eighthDigit << " + " << ninthDigit << " + " << tenthDigit << " + " << eleventhDigit << " + " << twelfthDigit << " = " << sumOfIdNumber;
 }
 
 int main()
