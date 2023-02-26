@@ -12,7 +12,7 @@ void sumDigits(long int idNumber){
 	int thirdDigit = idNumber / 1000000000 % 10;
 	int sumOfIdNumber = firstDigit + secondDigit + thirdDigit;
 
-	cout << firstDigit << " + " << secondDigit << " + " << thirdDigit << " = " << sumOfIdNumber;
+	cout << firstDigit << " + " << secondDigit << " + " << thirdDigit << " + " << fourthDigit << " + " << fifthDigit << " + " << sixthDigit << " + " << seventhDigit << " + " << eighthDigit << " + " << ninthDigit << " + " << tenthDigit << " + " << eleventhDigit << " + " << twelfthDigit << " = " << sumOfIdNumber;
 }
 
 int main()
