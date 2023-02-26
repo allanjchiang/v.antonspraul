@@ -6,7 +6,7 @@ using namespace std;
 
 //idNumber = 123456789012
 
-void sumDigits(int idNumber){
+void sumDigits(long int idNumber){
 	int firstDigit = idNumber / 100000000000 % 10;
 	int sumOfIdNumber = firstDigit;
 
