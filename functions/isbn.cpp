@@ -8,9 +8,10 @@ using namespace std;
 
 void sumDigits(long int idNumber){
 	int firstDigit = idNumber / 100000000000 % 10;
-	int sumOfIdNumber = firstDigit;
+	int secondDigit = idNumber / 10000000000 % 10;
+	int sumOfIdNumber = firstDigit + secondDigit;
 
-	cout << firstDigit << " + " << "placeholder" << " = " << sumOfIdNumber;
+	cout << firstDigit << " + " << secondDigit << " = " << sumOfIdNumber;
 }
 
 int main()
