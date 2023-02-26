@@ -7,7 +7,7 @@ using namespace std;
 //idNumber = 123456789012
 
 void sumDigits(int idNumber){
-	int firstDigit = idNumber / 10000000000 % 10;
+	int firstDigit = idNumber / 100000000000 % 10;
 	int sumOfIdNumber = firstDigit;
 
 	cout << firstDigit << " + " << "placeholder" << " = " << sumOfIdNumber;
@@ -16,6 +16,6 @@ void sumDigits(int idNumber){
 int main()
 {
 	
-	sumDigits(16);
+	sumDigits(123456789012);
 
 }
