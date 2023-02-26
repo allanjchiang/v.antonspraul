@@ -8,7 +8,6 @@ using std::cout;
 void sumDigits(int idNumber){
 	int sumOfIdNumber = idNumber % 10 + idNumber / 10 % 10;
 	cout << idNumber % 10 + " + " + idNumber / 10 % 10;
-	cout << sumOfIdNumber;
 }
 
 int main()
