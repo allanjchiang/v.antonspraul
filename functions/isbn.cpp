@@ -28,7 +28,7 @@ void checkValidIsbn(long int idNumber){
 	int sumOfIdNumber = firstDigit + secondDigitTripled + thirdDigit + fourthDigitTripled + fifthDigit + sixthDigitTripled + seventhDigit + eighthDigitTripled + ninthDigit + tenthDigitTripled + eleventhDigit + twelfthDigitTripled;
 	int checkDigit = sumOfIdNumber % 10;
 
-	cout << firstDigit << "(1) + " << secondDigit << "(3) + " << thirdDigit << "(1) + " << fourthDigit << "(3) + " << fifthDigit << "(1) + " << sixthDigit << "(3) + " << seventhDigit << "(1) + " << eighthDigit << "(3) + " << ninthDigit << "(1) + " << tenthDigit << "(3) + " << eleventhDigit << "(1) + " << twelfthDigit << "(3)"; << endl;
+	cout << firstDigit << "(1) + " << secondDigit << "(3) + " << thirdDigit << "(1) + " << fourthDigit << "(3) + " << fifthDigit << "(1) + " << sixthDigit << "(3) + " << seventhDigit << "(1) + " << eighthDigit << "(3) + " << ninthDigit << "(1) + " << tenthDigit << "(3) + " << eleventhDigit << "(1) + " << twelfthDigit << "(3)" << endl;
 	cout << firstDigit << " + " << secondDigitTripled << " + " << thirdDigit << " + " << fourthDigitTripled << " + " << fifthDigit << " + " << sixthDigitTripled << " + " << seventhDigit << " + " << eighthDigitTripled << " + " << ninthDigit << " + " << tenthDigitTripled << " + " << eleventhDigit << " + " << twelfthDigitTripled << " = " << sumOfIdNumber << endl;
 	if (sumOfIdNumber % 10 == checkDigit) {
 		cout << sumOfIdNumber << "divided by 10 = " << checkDigit << ". Therefore, your ISBN number is valid.";
