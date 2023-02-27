@@ -32,6 +32,8 @@ void checkValidIsbn(long int idNumber){
 	cout << firstDigit << " + " << secondDigitTripled << " + " << thirdDigit << " + " << fourthDigitTripled << " + " << fifthDigit << " + " << sixthDigitTripled << " + " << seventhDigit << " + " << eighthDigitTripled << " + " << ninthDigit << " + " << tenthDigitTripled << " + " << eleventhDigit << " + " << twelfthDigitTripled << " = " << sumOfIdNumber << endl;
 	if (sumOfIdNumber % 10 == checkDigit) {
 		cout << sumOfIdNumber << "divided by 10 = " << checkDigit << ". Therefore, your ISBN number is valid."
+	} else {
+		cout << sumOfIdNumber << "divided by 10 != " << checkDigit << ". Therefore, your ISBN number is invalid."
 	}
 }
 
