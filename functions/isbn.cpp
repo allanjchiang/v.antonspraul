@@ -24,7 +24,7 @@ void sumDigits(long int idNumber){
 	int tenthDigitTripled = idNumber / 1000 % 10 * 3;
 	int eleventhDigit = idNumber / 100 % 10;
 	int twelfthDigit = idNumber / 10 % 10;
-	int twelfthDigitTripled = idNumber % 10 * 3;
+	int twelfthDigitTripled = idNumber / 10 % 10 * 3;
 	int sumOfIdNumber = firstDigit + secondDigitTripled + thirdDigit + fourthDigitTripled + fifthDigit + sixthDigitTripled + seventhDigit + eighthDigitTripled + ninthDigit + tenthDigitTripled + eleventhDigit + twelfthDigitTripled;
 	int checkDigit = sumOfIdNumber % 10;
 
