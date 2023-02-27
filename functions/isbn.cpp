@@ -39,7 +39,7 @@ void checkValidIsbn(long int idNumber){
 
 int main()
 {
-	int isbn;
+	long int isbn;
 	cout << "Please enter in a 13 digit ISBN number and we will do some calculations to check if it is valid:" << endl;
 	cin >> isbn;
 	checkValidIsbn(isbn);
