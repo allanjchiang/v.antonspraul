@@ -6,7 +6,7 @@ using namespace std;
 
 //idNumber = 1234567890123
 
-void sumDigits(long int idNumber){
+void checkValidIsbn(long int idNumber){
 	int firstDigit = idNumber / 1000000000000 % 10;
 	int secondDigit = idNumber / 100000000000 % 10;
 	int secondDigitTripled = idNumber / 100000000000 % 10 * 3;
@@ -35,7 +35,9 @@ void sumDigits(long int idNumber){
 
 int main()
 {
-	
-	sumDigits(1234567890123);
+	int isbn;
+	cout << "Please enter in a 13 digit ISBN number and we will do some calculations to check if it is valid:" << endl;
+	cin >> isbn;
+	checkValidIsbn(isbn);
 
 }
